@@ -5,8 +5,8 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "ncc build ./index.ts -w -o dist/",
-    "release": "ncc build ./index.ts -o ./dist/ --minify --no-cache --no-source-map-register"
+    "dev": "tsc --watch",
+    "build": "tsc"
   },
   "bin": {
     "create-svelte-app": "./dist/index.js"
