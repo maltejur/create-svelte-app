@@ -1,4 +1,7 @@
 # create-svelte-app
 ```
-npm i create-svelte-app2 -g
+npm i -g create-svelte-app2
+```
+```
+npx create-svelte-app
 ```
