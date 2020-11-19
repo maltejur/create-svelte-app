@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import prompts from "prompts";
 import validFilename from "valid-filename";
 import degit from "degit";
