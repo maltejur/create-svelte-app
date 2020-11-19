@@ -1,6 +1,6 @@
 {
   "name": "create-svelte-app2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.ts",
   "license": "MIT",
   "scripts": {
@@ -8,7 +8,7 @@
     "release": "ncc build ./index.ts -o ./dist/ --minify --no-cache --no-source-map-register"
   },
   "bin": {
-    "create-svelte-app": "./dist/index.js"
+    "create-svelte-app": "node ./dist/index.js"
   },
   "devDependencies": {
     "@types/degit": "^2.8.0",
